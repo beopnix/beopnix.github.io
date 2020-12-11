@@ -1,3 +1,9 @@
+/* To body text */
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/***/
+
 @import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;300;400;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
@@ -7,7 +13,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 @import('normalize.css');
+
+/* UABC OFFICIAL COLORS */
+
+.text-green {
+    color: #00723f;
+}
+
+.text-ochre {
+    color: #DD971A;
+}
+
+.text-ochre-light {
+    color: #febe10;
+}
+
+.text-blue {
+    color: #20419A;
+}
+
+.text-black {
+    color: #000;
+}
+
+
+/*********************************/
+
 body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
     background-color: #ffffff;
     /*background-color: #2c3e50;*/
 }
@@ -322,7 +357,8 @@ a {
 
 .generic-anchor,
 .generic-anchor:visited {
-    color: #9bdf4a;
+    /*color: #9bdf4a;*/
+    color: #ffffff;
 }
 
 .generic-anchor:hover,
@@ -369,13 +405,18 @@ main {
 
 footer {
     /*background: linear-gradient(93.4deg, #4d76d5 8.16%, #5bd9ff 37.71%, #54fdd4 64.19%, #5ee58d 87.62%, #1af563 99.34%);*/
-    /*background: linear-gradient(93.4deg, #1F3D83 8.16%, #00A7DA 37.71%, #00C897 64.19%, #1BA94C 87.62%, #068932 99.34%)*/
-    /*background: linear-gradient(to bottom, #171718, #1d1e2e, #212645, #242e5e, #243677, #204185, #174c94, #0058a2, #00669f, #006e88, #007265, #00723f);*/
+    /*background: linear-gradient(93.4deg, #1F3D83 8.16%, #00A7DA 37.71%, #00C897 64.19%, #1BA94C 87.62%, #068932 99.34%);*/
     /*background-image: linear-gradient(to bottom, #20419a, #0073d0, #009ecd, #00c28e, #33dd1a);*/
-    /*background: linear-gradient(to bottom, #20419a, #0075cf, #00a4db, #00cfbe, #0ea360);*/
     /*background-image: linear-gradient(to bottom, #130f40, #1a1a55, #1f266b, #213382, #20419a);*/
     /*background-image: linear-gradient(to right, #b3eb50, #96d544, #7abf38, #5ea92d, #429421);*/
-    background-image: linear-gradient(to right, #004f2f, #056031, #167130, #2b832b, #429421);
+    /*background-image: linear-gradient(to right, #004f2f, #056031, #167130, #2b832b, #429421);*/
+    /*background-image: linear-gradient(to right, #004f2f, #024a29, #034623, #04411d, #053d17);*/
+    background: #093028;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #237A57, #093028);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #237A57, #093028);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-top: auto;
     width: 100%
 }
@@ -393,7 +434,8 @@ footer {
 .footer-list-header {
     /*padding: 10px 0 5px 0;*/
     padding: 30px 10px 5px 10px;
-    color: #fff;
+    /*color: #fff;*/
+    color: #febe10;
     font: 1.3vw 'Libre Baskerville', serif;
 }
 
