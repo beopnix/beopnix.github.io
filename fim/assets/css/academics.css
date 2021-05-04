@@ -1,0 +1,217 @@
+/*
+   Academics CSS style
+
+   UABC OFFICIAL COLORS
+
+   Green #00723F
+   Ocher  #DD971A
+   Blue  #20419A
+   Black #000000
+
+   FIM OFFICIAL COLOR
+    #7D114F
+*/
+
+.admisionprofile {
+    background-color: transparent;
+}
+
+.graduateprofile {
+    /*background-image: linear-gradient(to right, #ecf0f1, #cae4ed, #a8d7ec, #85caec, #61bbee, #70b1f6, #8ca3f6, #ad93ed, #e981c9, #ff7a95, #ff8860, #dca138);*/
+    /*background-image: linear-gradient(to right, #ffcf4b, #b1da64, #60d996, #00d1c6, #00c2e2, #2fb7f6, #73a8fb, #ad93ed, #e981c9, #ff7a95, #ff8860, #dca138);*/
+    /*background-image: linear-gradient(to right, #f8f6f3, #f8f6f4, #f8f6f5, #f8f6f5, #f7f6f6, #f8f6f6, #f8f5f6, #f8f5f7, #fbf4f5, #fdf3f2, #fcf3ed, #f9f4ea);*/
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.graduateprofile h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    letter-spacing: 0.001em;
+    color: #DD971A;
+    /*padding: 20px 10px 20px 10px;
+    background-color: #7D114F;*/
+}
+
+.graduateprofile li {
+    line-height: 1.4rem;
+    background-color: transparent;
+    color: #fff;
+}
+
+.featurette-img {
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 19px 38px rgba(39, 38, 38, 0.3), 0 15px 12px rgba(151, 93, 93, 0.22);
+}
+
+.img-h-300 {
+    height: 300px;
+}
+
+.img-h-350 {
+    height: 350px;
+}
+
+.img-h-400 {
+    height: 400px;
+}
+
+.occupationalfield {
+    background: #C9D6FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 0px;
+}
+
+
+/* Typography */
+
+.caption {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    letter-spacing: 0.001em;
+}
+
+.subcaption {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.30rem;
+}
+
+.list {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.00rem;
+    line-height: normal;
+}
+
+.list-padding {
+    /*padding: .05rem 1.25rem;*/
+    /*padding: .05rem 1.25rem .05rem 0;*/
+    padding: .02rem 1.25rem .02rem 0;
+}
+
+.text-gradient {
+    /*
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);*/
+    /*background-image: linear-gradient(to right, #111110, #3c3a1a, #71661c, #b29219, #febe10);*/
+    background: -webkit-linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    /*background: -webkit-linear-gradient(-70deg, #febe10, #ffffff);*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-gradient-green {
+    background: -webkit-linear-gradient(150deg, #051937 0%, #004d7a, #008793, #00bf72, #a8eb12 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-gradient-deepdark {
+    background: -webkit-linear-gradient(150deg, #101a34 0%, #12244c, #152d65, #19377f, #20419a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-gradient-bluegreenligth {
+    /*background: -webkit-linear-gradient(120deg, #20419a 0%, #154ea2, #0a5aa9, #0966af, #1471b4, #1c78b8, #247fbd, #2c86c1, #2e8ac7, #308fce, #3293d4, #3498db 100%);*/
+    background: -webkit-linear-gradient(-75deg, #20419a 0%, #0076c5, #00a3c0, #00ca9a, #a2e772 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-gradient-blueochre {
+    background-image: -webkit-linear-gradient(45deg, #20419a 0%, #943792, #d2386f, #e96144, #dd971a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-gradient-fueltowntoblue {
+    background-image: -webkit-linear-gradient(-75deg, #8395a7 0%, #6382a6, #476da5, #2f58a1, #20419a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-gradient-joustbluetoblue {
+    background-image: -webkit-linear-gradient(-75deg, #54a0ff 0%, #4687e6, #11336e, #2d58b3, #20419a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-gradient-ochre {
+    /*background-image: -webkit-linear-gradient(-75deg, #8395a7 0%, #6382a6, #476da5, #2f58a1, #20419a 100%);*/
+    background: -webkit-linear-gradient(-120deg, #f5c383 0%, #ecb05b, #ebab48, #e9a534, #e6a018, #eca716, #f2af15, #f8b613, #febe10 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* Cards */
+
+.academics-card-text {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.00rem;
+}
+
+.backimage {
+    background-image: url('https://localhost/fimenglish/dist-v1/images/mecatronica-5.jpg');
+}
+
+.mv-dark-card {
+    background-image: linear-gradient(to right, #20419a, #154ea2, #0a5aa9, #0966af, #1471b4, #1c78b8, #247fbd, #2c86c1, #2e8ac7, #308fce, #3293d4, #3498db);
+    color: #ffffff;
+    padding: 40px 10px;
+    transition: all 0.5s ease-out;
+}
+
+.mv-deepdark-card {
+    background-image: linear-gradient(to right top, #101a34, #12244c, #152d65, #19377f, #20419a);
+    color: #ffffff;
+    padding: 40px 10px;
+    transition: all 0.5s ease-out;
+}
+
+
+/* a ref doi */
+
+.doi {
+    /*color: #1c7ed6;*/
+    color: #7f8c8d;
+}
+
+.doi:hover {
+    color: #5c940d;
+    text-decoration: none;
+}
+
+.text-ultimategray {
+    color: #939597;
+}
+
+.text-lavender {
+    color: #afa4ce;
+}
+
+.text-bluenights {
+    color: #363B48;
+}
+
+
+/* Message from director */
+
+.director-message {
+    line-height: 1.5;
+    font-size: 1.125rem;
+}
