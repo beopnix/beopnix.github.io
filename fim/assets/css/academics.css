@@ -44,6 +44,18 @@
     box-shadow: 0 19px 38px rgba(39, 38, 38, 0.3), 0 15px 12px rgba(151, 93, 93, 0.22);
 }
 
+.img-h-300 {
+    height: 300px;
+}
+
+.img-h-350 {
+    height: 350px;
+}
+
+.img-h-400 {
+    height: 400px;
+}
+
 .occupationalfield {
     background: #C9D6FF;
     /* fallback for old browsers */
@@ -75,7 +87,9 @@
 }
 
 .list-padding {
-    padding: .05rem 1.25rem;
+    /*padding: .05rem 1.25rem;*/
+    /*padding: .05rem 1.25rem .05rem 0;*/
+    padding: .02rem 1.25rem .02rem 0;
 }
 
 .text-gradient {
@@ -114,6 +128,35 @@
     background-clip: text;
 }
 
+.text-gradient-blueochre {
+    background-image: -webkit-linear-gradient(45deg, #20419a 0%, #943792, #d2386f, #e96144, #dd971a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-gradient-fueltowntoblue {
+    background-image: -webkit-linear-gradient(-75deg, #8395a7 0%, #6382a6, #476da5, #2f58a1, #20419a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-gradient-joustbluetoblue {
+    background-image: -webkit-linear-gradient(-75deg, #54a0ff 0%, #4687e6, #11336e, #2d58b3, #20419a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-gradient-ochre {
+    /*background-image: -webkit-linear-gradient(-75deg, #8395a7 0%, #6382a6, #476da5, #2f58a1, #20419a 100%);*/
+    background: -webkit-linear-gradient(-120deg, #f5c383 0%, #ecb05b, #ebab48, #e9a534, #e6a018, #eca716, #f2af15, #f8b613, #febe10 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 
 /* Cards */
 
@@ -138,4 +181,37 @@
     color: #ffffff;
     padding: 40px 10px;
     transition: all 0.5s ease-out;
+}
+
+
+/* a ref doi */
+
+.doi {
+    /*color: #1c7ed6;*/
+    color: #7f8c8d;
+}
+
+.doi:hover {
+    color: #5c940d;
+    text-decoration: none;
+}
+
+.text-ultimategray {
+    color: #939597;
+}
+
+.text-lavender {
+    color: #afa4ce;
+}
+
+.text-bluenights {
+    color: #363B48;
+}
+
+
+/* Message from director */
+
+.director-message {
+    line-height: 1.5;
+    font-size: 1.125rem;
 }
