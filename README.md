@@ -1,2 +1,2 @@
-# beopnixcomputer.github.io
+# beopnix.github.io
 data analytics &amp; software developers ...
